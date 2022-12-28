@@ -3,33 +3,33 @@
 const Cardarreglo=[
   {
     imagen:"naruto.jpg",
-    name:"naruto",
+    name:"Naruto uzumaqui",
     edad:"16",
-    technique: "raselguen"
+    habilidad: "rasen shurinquean"
   },
   {
     imagen:"itachi.jpg",
-    name:"itachi",
+    name:"Itachi",
     edad:"18",
-    technique: "raselguen"
+    habilidad: "sucuyomi infinito"
   },
   {
-    imagen:"sazuke.jpg",
-    name:"sazuke",
+    imagen:"sazuke.png",
+    name:"Sazuke",
     edad:"17",
-    technique: "raselguen"
+    habilidad: "chidori"
   },
   {
     imagen:"minato.jpg",
-    name:"minato",
+    name:"Minato",
     edad:"30",
-    technique: "girachin"
+    habilidad: "jirachin no jutso"
   },
   {
     imagen:"elsabio.jpg",
     name:"el savio",
     edad:"43",
-    technique: "raselguen"
+    habididad: "raselguen"
   }
   ]
 
