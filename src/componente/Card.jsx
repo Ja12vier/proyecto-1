@@ -2,10 +2,9 @@
 
 const Card=(({tarjeta, colore})=>{
 
-const {imagen,name,edad,habilidad}=tarjeta
+console.log(colore);
 
-
-
+console.log(tarjeta.picture);
   return(
     <div className="content"
     style={{backgroundColor:colore}}
@@ -13,13 +12,22 @@ const {imagen,name,edad,habilidad}=tarjeta
 
       <div className="contet">
        <div className="card">
-       <h1>{name}</h1>
         <div className="img">
-        <img src={`/src/assets/${imagen}`} alt="" />
+          <h1
+          style={{color:colore}}
+          >{tarjeta.name.first}</h1>
+        <img src={tarjeta.picture.large} alt="" />
         </div>
-        <h3>Edad:      {edad}</h3>
-        <h3>Habilidad:      {habilidad}</h3>
-      
+        <h3
+        style={{color:colore}}
+        > <img src="/src/assets/gmail.png" alt="" />  {tarjeta.email}</h3>
+        <h3
+        style={{color:colore}}
+        ><img src="/src/assets/llamada-telefonica.png" alt="" />{tarjeta.phone} </h3>
+        <h3
+        style={{color:colore}}
+        ><img src="/src/assets/puntero-del-mapa.png" alt="" />{tarjeta.location.street.name} </h3>
+  
        </div>
     
        </div>{}
